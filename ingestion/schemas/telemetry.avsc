@@ -1,0 +1,13 @@
+{
+  "namespace": "com.permutex.telemetry",
+  "type": "record",
+  "name": "SatelliteTelemetry",
+  "fields": [
+    {"name": "satellite_id", "type": "string"},
+    {"name": "event_timestamp", "type": "long", "logicalType": "timestamp-millis"},
+    {"name": "temperature_c", "type": "float"},
+    {"name": "voltage_v", "type": "float"},
+    {"name": "cpu_utilization", "type": "float"},
+    {"name": "status", "type": "string"}
+  ]
+}

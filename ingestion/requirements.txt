@@ -1,0 +1,4 @@
+# ingestion/requirements.txt
+confluent-kafka==2.3.0
+fastavro==1.9.3
+pydantic==2.5.3
