@@ -38,7 +38,7 @@ Built entirely on local infrastructure using Docker, this project simulates a fl
 
 ##  Architecture & Tech Stack
 
-![Dashboard Screenshot](https://github.com/KOUSHIC8976/permuteX/blob/main/Grafana_Dashboard.png)
+![Dashboard Screenshot](https://github.com/KOUSHIC8976/PermuteX/blob/main/orchestration/include/Grafana_Dashboard.png)
 
 The pipeline is entirely decoupled and operates in the following sequential flow:
 
@@ -90,7 +90,25 @@ astro dev start
 
 #  **Airflow**
 
-Navigate to Airflow UI at http://localhost:8080 to view the anomaly detection DAG.
+* Navigate to Airflow UI at http://localhost:8080 to view the anomaly detection DAG.
+
+* Go to Connections and select PostgreSQL.
+
+* Configure the connection exactly as follows:
+
+  **Connection Id:** permutex_pg_conn 
+
+  **Connection Type:** Postgres
+
+  **Host:** host.docker.internal 
+
+  **Schema/Database:** permutex_db
+
+  **Login:** permutex_user
+
+  **Password:** permutex_password
+
+   **Port:** 5432
 
 #  **Grafana**
 
