@@ -3,7 +3,7 @@
   #  PermuteX
   **Real-Time Streaming Architecture**
   
-  [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+  [![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
   [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
   [![Apache Kafka](https://img.shields.io/badge/Kafka-KRaft_Mode-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
   [![Apache Flink](https://img.shields.io/badge/Flink-Stateful_Streaming-E6522C?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/)
@@ -51,7 +51,11 @@ The pipeline is entirely decoupled and operates in the following sequential flow
 7. **Observability:** **Grafana** for live, auto-refreshing time-series visualization.
 
 ---
+##  Demo
 
+<video src="https://github.com/KOUSHIC8976/PermuteX/blob/main/infrastructure/Permutex_demo.mp4" width="100%" controls></video>
+
+---
 ##  Key Technical Challenges Resolved
 
 Key problems solved in this project include:
@@ -68,8 +72,9 @@ Key problems solved in this project include:
 ### Prerequisites
 Before you begin, ensure you have the following installed:
 * **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** (Ensure Docker engine is running)
-* **[Python 3.10+](https://www.python.org/downloads/)**
+* **[Python 3.10](https://www.python.org/downloads/)**
 * **[Astronomer CLI](https://docs.astronomer.io/astro/cli/install-cli)** (For Airflow orchestration)
+* Java
 
 ### Usage
 Spin up the decoupled microservices (Kafka, Schema Registry, Postgres, Grafana).
