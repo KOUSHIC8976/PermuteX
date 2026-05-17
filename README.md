@@ -53,7 +53,7 @@ The pipeline is entirely decoupled and operates in the following sequential flow
 ---
 ##  Demo
 
-<video src="https://github.com/KOUSHIC8976/PermuteX/blob/main/infrastructure/Permutex_demo.mp4" width="100%" controls></video>
+https://github.com/user-attachments/assets/302efa57-66c8-4a03-8d73-47993672c5e9
 
 ---
 ##  Key Technical Challenges Resolved
@@ -149,3 +149,5 @@ WHERE
 ORDER BY window_end ASC;
 ```
 * Apply and run it.
+
+
