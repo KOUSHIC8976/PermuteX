@@ -38,6 +38,8 @@ Built entirely on local infrastructure using Docker, this project simulates a fl
 
 ##  Architecture & Tech Stack
 
+![Architecture](https://github.com/KOUSHIC8976/PermuteX/blob/main/infrastructure/PermuteX.png)
+
 ![Dashboard Screenshot](https://github.com/KOUSHIC8976/PermuteX/blob/main/orchestration/include/Grafana_Dashboard.png)
 
 The pipeline is entirely decoupled and operates in the following sequential flow:
